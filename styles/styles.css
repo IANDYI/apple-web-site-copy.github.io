@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/*Global section*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+
+/*Header section*/
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 4.4rem;
+    background-color: rgba(250, 250, 252, 0.8);
+    backdrop-filter: blur(2rem);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+
+.nav-list-mobile {
+    display: none;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgb(50, 50, 50);
+    padding: 0 1rem;
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.nav-link-apple {
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("/images/icons/apple.svg") center no-repeat;
+}
+
+.nav-link-search {
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("/images/icons/search.svg") center no-repeat;
+}
+
+.nav-link-bag {
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url("/images/icons/bag.svg") center no-repeat;
+}
+
+/*iPhone 15 Pro section*/
+
+.iphone-15-pro {
+    margin-top: 4.4rem;
+    background: url("/images/hero/iphone-15-pro/iphone_15_pro_large.jpg");
+}
+
+.title {
+    color: white;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.title-heading {
+    font-size: 5.4rem;
+    line-height: 1;
+    letter-spacing: -.0005rem;
+    font-weight: 500;
+}
+
+.title-sub-heading {
+    font-size: 2.4rem;
+    margin-top: 1rem;
+    letter-spacing: .04rem;
+    font-weight: 300;
+}
+
+.title-date {
+    color: rgb(134, 134, 138);
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.cta-link {
+    color: rgb(77, 149, 248);
+    font-size: 1.8rem;
+    display: inline-block;
+    font-weight: 300;
+    margin-top: 1rem;
+    letter-spacing: 0.05rem;
+}
+
+.cta-link:nth-child(2) {
+    margin-left: 2.6rem;
+}
+
+.cta-link:hover {
+    border-bottom: 1px solid rgb(77, 149, 248);
+}
+
+/*iPhone 15 section*/
+
+.iphone-15 {
+    background: url("/images/hero/iphone-15/iphone_15_large.jpg");
+}
+
+.title-darker {
+    color: rgb(29, 29, 31)
+}
+
+.title-date-darker {
+    color: rgb(110, 110, 114);
+}
+
+.cta-link-darker {
+    color: rgb(42, 100, 197)
+}
+
+.cta-link-darker:hover {
+    border-bottom: rgb(42, 100, 197);
+}
+
+/* Moved to the bottom to keep consistent styles */
+
+.hero {
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-top: 0.6rem solid white;
+    border-bottom: 0.6rem solid white;
+}
+
+.iphone-15-pro {
+    border-top: none;
+}
+
+/* end */
