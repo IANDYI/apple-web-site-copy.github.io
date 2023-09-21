@@ -59,26 +59,26 @@ header {
 .nav-link-apple {
     width: 1.6rem;
     height: 4.4rem;
-    background: url("/images/icons/apple.svg") center no-repeat;
+    background: url("img/icons/apple.svg") center no-repeat;
 }
 
 .nav-link-search {
     width: 1.6rem;
     height: 4.4rem;
-    background: url("/images/icons/search.svg") center no-repeat;
+    background: url("img/icons/search.svg") center no-repeat;
 }
 
 .nav-link-bag {
     width: 1.4rem;
     height: 4.4rem;
-    background: url("/images/icons/bag.svg") center no-repeat;
+    background: url("img/icons/apple.svg") center no-repeat;
 }
 
 /*iPhone 15 Pro section*/
 
 .iphone-15-pro {
     margin-top: 4.4rem;
-    background: url("/images/hero/iphone-15-pro/iphone_15_pro_large.jpg");
+    background: url("img/hero/iphone-15-pro/iphone_15_pro_large.jpg");
 }
 
 .title {
@@ -134,7 +134,7 @@ header {
 /*iPhone 15 section*/
 
 .iphone-15 {
-    background: url("/images/hero/iphone-15/iphone_15_large.jpg");
+    background: url("img/hero/iphone-15/iphone_15_large.jpg");
 }
 
 .title-darker {
