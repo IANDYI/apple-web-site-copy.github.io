@@ -156,9 +156,9 @@ header {
 /* Moved to the bottom to keep consistent styles */
 
 .hero {
-    height: 69.2rem;
-    background-size: auto 73.6rem;
-    background-position: bottom;
+    height: 69.3rem;
+    background-size: auto 79rem;
+    background-position: bottom center;
     background-repeat: no-repeat;
     border-top: 0.6rem solid white;
     border-bottom: 0.6rem solid white;
@@ -169,3 +169,20 @@ header {
 }
 
 /* end */
+
+@media screen and (max-width: 1068px){
+    .iphone-15-pro{
+        background-image: url("img/hero/iphone-15-pro/iphone_15_pro_medium.jpg");
+    }
+
+    .iphone-15{
+        background-image: url("img/hero/iphone-15/iphone_15_medium.jpg");
+    }
+
+    .hero {
+        height: 65rem;
+        background-size: auto 65rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+}
